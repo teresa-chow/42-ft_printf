@@ -1,7 +1,7 @@
 # 42-ft_printf
 ![42 School: Rank 1](https://img.shields.io/badge/42%20School-Rank%201-%2315bbbb)
 
-_Recoding of C function printf(), developed during Common Core curriculum at 42._
+_Recoding of printf: in C language, printf is used to write formatted output to the standard output stream, stdout. This project was developed during the Common Core curriculum at 42, introducing the concept of variadic functions._
 ___
 
 
@@ -20,6 +20,17 @@ ___
     git clone git@github.com:teresa-chow/42-ft_printf.git
     ```
 
+2. Go inside project directory and run `make`
+    ```bash
+    cd ft_printf
+    make
+    ```
+    
+3. To use the library in your code, `#include` the following header
+    ```c
+    #include "ft_printf.h"
+    ```
+
 </br>
 
 # :book: Subject
@@ -32,6 +43,20 @@ ___
 
 <details open>
   <summary><h2>Mandatory part</h2></summary>
+    
+Handled conversions:
+
+Format specifier | Description
+:--:|--
+`%c` | _Prints a single character._
+`%s` | _Prints a string of characters._
+`%p` | _Prints the `void *` pointer argument in hexadecimal format._
+`%d` | _Prints a decimal (base 10) number._
+`%i` | _Prints an integer in base 10._
+`%u` | _Prints an unsigned decimal number._
+`%x` | _Prints a number in hexadecimal (base 16) lowercase format._
+`%X` | _Prints a number in hexadecimal uppercase format._
+`%%` | _Prints a percent sign._
 
 </details>
 
