@@ -1,4 +1,4 @@
-# 42-ft_printf
+# ft_printf
 ![42 School: Rank 1](https://img.shields.io/badge/42%20School-Rank%201-%2315bbbb)
 
 _Recoding of printf: in C language, printf is used to write formatted output to the standard output stream, stdout. This project was developed during the Common Core curriculum at 42, introducing the concept of variadic functions._
