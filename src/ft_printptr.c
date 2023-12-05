@@ -6,7 +6,7 @@
 /*   By: tchow-so <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/13 15:47:23 by tchow-so          #+#    #+#             */
-/*   Updated: 2023/11/17 09:47:15 by tchow-so         ###   ########.fr       */
+/*   Updated: 2023/12/05 13:02:54 by tchow-so         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,10 +27,8 @@ int	ft_printptr(unsigned long n)
 static void	ft_printhex(unsigned long n)
 {
 	char	*symbols;
-	int		count;
 
 	symbols = "0123456789abcdef";
-	count = 0;
 	if (n < 16)
 		ft_printchar(symbols[n]);
 	else
