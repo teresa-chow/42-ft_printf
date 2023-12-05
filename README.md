@@ -50,7 +50,7 @@ Format specifier | Description
 :--:|--
 `%c` | _Prints a single character._
 `%s` | _Prints a string of characters._
-`%p` | _Prints the `void *` pointer argument in hexadecimal format._
+`%p` | _Prints the_ `void *` _pointer argument in hexadecimal format._
 `%d` | _Prints a decimal (base 10) number._
 `%i` | _Prints an integer in base 10._
 `%u` | _Prints an unsigned decimal number._
