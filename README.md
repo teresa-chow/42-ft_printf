@@ -60,11 +60,6 @@ Format specifier | Description
 
 </details>
 
-<details open>
-  <summary><h2>Bonus part</h2></summary>
-
-</details>
-
 ___
 
 </br>
